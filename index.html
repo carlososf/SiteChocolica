@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chôcólica - Site do Produto</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8A2BE2;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 50px;
+      height: auto;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ffffff;
+    }
+
+    .menu {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .menu a {
+      color: #ffffff;
+      text-decoration: underline;
+      margin-right: 10px;
+    }
+
+    .conteudo {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .informacoes-produto {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      padding-top: 20px;
+      text-align: center;
+    }
+
+    .informacoes-produto img {
+      max-width: 300px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .slogan {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .produto {
+      margin-top: 40px;
+    }
+
+    .produto img {
+      max-width: 300px;
+      margin: 0 20px;
+    }
+
+    .botao-comprar {
+      background-color: #8A2BE2;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .botao-comprar:hover {
+      background-color: #6C208D;
+    }
+
+    .value {
+      font-weight: bold;
+    }
+
+    .informacoes-produto p {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: #8A2BE2;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chôcólica</h1>
+    <img src="LOGO 2.jpg" alt="Logo Chôcólica" class="logo">
+    <nav class="menu">
+      <a href="#">Login</a>
+      <a href="#">Quem somos nós</a>
+      <a href="#">Dúvidas</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <div class="conteudo">
+    <h2>Acabe com as dores da forma mais saborosa</h2>
+
+    <div class="informacoes-produto">
+      <img src="Meu projeto.png" alt="Chôcólica" />
+      <p>Chocólica é uma marca pensada no bem-estar das mulheres, com o objetivo de combater dores abdominais de uma forma tranquila e saborosa.</p>
+    </div>
+
+    <div>
+      <h2>Quem somos nós</h2>
+      <p>Somos uma equipe dedicada a criar produtos deliciosos que ajudam a aliviar as dores menstruais. Nossa missão é proporcionar conforto e bem-estar para as mulheres, oferecendo uma opção saborosa e eficaz para combater a Chôcólica.</p>
+    </div>
+
+    <div>
+      <h2>Dúvidas</h2>
+      <p>Tem alguma dúvida sobre os nossos produtos? Preencha o formulário abaixo e entraremos em contato com você o mais breve possível:</p>
+      <form>
+        <label for="duvida">Dúvida:</label><br>
+        <textarea id="duvida" name="duvida" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
+    <div class="slogan">
+      <p>Conheça nossos produtos:</p>
+    </div>
+
+    <div class="produto">
+      <img src="Meu projeto (1).png" alt="Chôcólica Produto 1" />
+      <div>
+        <p>CHÔCÓLICA SABOR CHOCOLATE AO LEITE - 800g IBUPROFENO</p>
+        <p class="value">Valor: R$ XX,XX</p>
+        <button class="botao-comprar">Comprar</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <img src="Chcoclate_Mockup_3-Recuperado-PhotoRoom.png-PhotoRoom (1).png" alt="Chôcólica Produto 2" />
+      <div>
+        <p>CHÔCÓLICA SABOR CHOCOLATE BRANCO - 200g IBUPROFENO</p>
+        <p class="value">Valor: R$ XX,XX</p>
+        <button class="botao-comprar">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Chôcólica. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
